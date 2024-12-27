@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(10, 103, 134);
+}
+  
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: verdana;
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 40rem; 
+    max-height: 120rem;
+}
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
