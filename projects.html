@@ -4,15 +4,38 @@
     <Head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>BaileyDrew's Website - Projects</title>
+        <title>BaileyDrew's Website - Home</title>
         <link rel="stylesheet" href="defaultstyle.css">
+        <script src="script.js"></script>
     </Head>
     <body>
-        <h1>BaileyDrew's Website</h1>
-        <P>Projects</P>
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <header>
+            <h1 class="logoimg">
+                <a href="index.html" title ="BaileyDrew's Website">
+                    <img src="frog.png" alt="Adorable Frog Logo">
+                </a>
+            </h1>
+        </header>
+        <nav>
+            <form>
+                <button formaction="index.html">Home</button>
+            </form>
+            <form>
+                <button formaction="aboutme.html">About Me</button>
+            </form>
+            <form>
+                <button class="projectspage" formaction="projects.html">Projects</button>
+            </form>
+            <form>
+                <button formaction="contact.html">Contact</button>    
+            </form>
+
+            <!--
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            -->
+        </nav>
     </body>
 </html>

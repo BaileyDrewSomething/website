@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>BaileyDrew's Website - Home</title>
         <link rel="stylesheet" href="defaultstyle.css">
+        <script src="script.js"></script>
     </Head>
     <body>
         <header>
@@ -16,11 +17,18 @@
             </h1>
         </header>
         <nav>
-            <P>Home</P>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <form>
+                <button class="homepage" formaction="index.html" >Home</button>
+            </form>
+            <form>
+                <button formaction="aboutme.html">About Me</button>
+            </form>
+            <form>
+                <button formaction="projects.html">Projects</button>
+            </form>
+            <form>
+                <button formaction="contact.html">Contact</button>    
+            </form>
         </nav>
     </body>
 </html>
