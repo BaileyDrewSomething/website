@@ -40,6 +40,7 @@ nav {
     justify-content: start;
     align-items: start;
     background-color: #3b3b3b;
+    width: 100vw;
 }
 
 form {
@@ -58,6 +59,7 @@ button {
     cursor: pointer;
     box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+    height: auto;
 
 }
 
