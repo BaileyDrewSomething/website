@@ -1,5 +1,11 @@
 body {
-    background-color: rgb(10, 103, 134);
+    display: flex;
+    flex-direction: column;
+    background-color: #008B8B;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
   
 header {
@@ -9,6 +15,10 @@ header {
 h1 {
     font-family: verdana;
     color: white;
+}
+h2 {
+    font-family: verdana;
+    color: black;
     text-align: center;
 }
 
@@ -22,4 +32,57 @@ img {
 p {
     font-family: verdana;
     font-size: 20px;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    background-color: #3b3b3b;
+}
+
+form {
+    margin: 0;
+}
+
+button {
+    background-color: #3b3b3b;
+    border: none;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:active {
+    align-items: center;
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, 0.2);
+    scale: .97;
+}
+
+.homepage {
+    background-color: #3e8e4149;
+}
+
+.aboutmepage {
+    background-color: #3e8e4149;
+}
+
+.projectspage {
+    background-color: #3e8e4149;
+}
+
+.contactpage {
+    background-color: #3e8e4149;
 }
