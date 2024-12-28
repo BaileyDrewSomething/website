@@ -45,22 +45,26 @@ nav {
 
 form {
     margin: 0;
-    max-width: calc(100vw/4);
+    width: 9em;
+    height: 100%;
 }
 
 button {
     background-color: #3b3b3b;
     border: none;
     color: white;
-    padding: 1rem 1rem;
+    padding: 0 .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     height: 100%;
+    width: 100%;
 
 }
 
